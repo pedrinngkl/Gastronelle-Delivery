@@ -55,17 +55,21 @@ cd Gastronelle-Delivery
 ---
 ## 📂 Estrutura de Pastas
 Gastronelle-Delivery/
-├── assets/ # Imagens, ícones e outros recursos
+│
+├── assets/                # Imagens, ícones, logos etc
+│
 ├── css/
-│   └── style.css # Estilos globais
-├── index.html  # Página principal
-├── login.html
-├── mercado.html
-├── pedidos.html
-├── restaurante.html
-├── quem-somos.html
-├── contato.html
-└── script.js  # Funções de interação
+│   └── style.css          # Estilos globais
+│
+├── script.js              # Funções JS de interação
+│
+├── index.html             # Página principal
+├── login.html             # Login
+├── mercado.html           # Página do mercado
+├── pedidos.html           # Pedidos
+├── restaurante.html       # Página de restaurantes
+├── quem-somos.html        # Quem somos
+├── contato.html           # Contato
 
 ---
 ## 🌐 Demostração
