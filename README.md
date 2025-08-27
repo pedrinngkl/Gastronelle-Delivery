@@ -51,3 +51,27 @@ git clone https://github.com/pedrinngkl/Gastronelle-Delivery.git
 cd Gastronelle-Delivery
 
 # Abra o arquivo index.html no navegador
+```
+---
+## 📂 Estrutura de Pastas
+Gastronelle-Delivery/
+├── assets/ # Imagens, ícones e outros recursos
+├── css/
+│   └── style.css # Estilos globais
+├── index.html  # Página principal
+├── login.html
+├── mercado.html
+├── pedidos.html
+├── restaurante.html
+├── quem-somos.html
+├── contato.html
+└── script.js  # Funções de interação
+
+---
+## 🌐 Demostração
+https://pedrinngkl.github.io/Gastronelle-Delivery/
+---
+👨‍💻 Autor
+Pedro Gonçalves
+📌 Desenvolvedor Frontend iniciante apaixonado por tecnologia e design.
+
