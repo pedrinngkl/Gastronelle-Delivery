@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/banner.png" alt="Gastronelle Delivery" width="800"/>
+  <img src="./assets/img/banner.png" alt="Gastronelle Delivery" width="800"/>
 </p>
 
 # 🍽️ Gastronelle-Delivery
