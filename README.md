@@ -8,7 +8,7 @@ Delivery rápido e prático de alimentos — projeto frontend estático com pág
 
 ---
 
-## 📑 Table of Contents
+## 📑 Índice 
 1. [Sobre](#sobre)
 2. [Funcionalidades](#funcionalidades)
 3. [Tecnologias](#tecnologias)
