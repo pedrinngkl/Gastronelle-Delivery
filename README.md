@@ -71,7 +71,11 @@ Gastronelle-Delivery/
 ## 🌐 Demostração
 https://pedrinngkl.github.io/Gastronelle-Delivery/
 ---
-👨‍💻 Autor
-Pedro Gonçalves
-📌 Desenvolvedor Frontend iniciante apaixonado por tecnologia e design.
+<p align="center">
+  <strong>Feito com ❤️ por Pedro</strong>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Feito%20com-%E2%9D%A4-red" alt="Feito com ❤️ por Pedro">
+</p>
 
