@@ -1,11 +1,10 @@
+<p align="center">
+  <img src="./assets/banner.png" alt="Gastronelle Delivery" width="800"/>
+</p>
+
 # 🍽️ Gastronelle-Delivery
 
-Delivery rápido e prático de alimentos — frontend estático com várias páginas (index, pedidos, mercado, restaurante, etc.) pronto para projetar sobre qualquer backend ou hospedar como site estático.
-
----
-
-## 🚀 Demonstração
-[👉 Clique aqui para acessar](https://pedrinngkl.github.io/Gastronelle-Delivery/)
+Delivery rápido e prático de alimentos — projeto frontend estático com páginas como **início, pedidos, mercado, restaurantes, login e contato**.  
 
 ---
 
@@ -15,30 +14,22 @@ Delivery rápido e prático de alimentos — frontend estático com várias pág
 3. [Tecnologias](#tecnologias)
 4. [Como Executar](#como-executar)
 5. [Estrutura de Pastas](#estrutura-de-pastas)
-6. [Contato](#contato)
+6. [Demonstração](#demonstração)
 
 ---
 
 ## 📌 Sobre
-Este projeto é uma versão frontend de um sistema de delivery, com páginas como:
 
-- Página inicial
-- Login
-- Mercado (lista de produtos)
-- Pedidos (visualização de carrinho/status)
-- Informações sobre os restaurantes
-- Quem somos
-- Contato
-
-Feito com **HTML, CSS e JavaScript**.
+O **Gastronelle-Delivery** é um site para delivery de alimentos, feito em **HTML, CSS e JavaScript**, com várias páginas interligadas para simular a experiência de um aplicativo de delivery.  
 
 ---
 
-## ✨ Funcionalidades
-- Layout responsivo com interface intuitiva  
-- Múltiplas páginas interligadas (menus, formulários, listas, etc.)  
-- Navegação clara e organizada  
-- Pode ser facilmente integrado a uma API ou servido como site estático  
+## 🚀 Funcionalidades
+
+- Layout responsivo  
+- Navegação entre páginas (home, mercado, pedidos, restaurante, quem somos, contato)  
+- Formulário de login  
+- Organização visual inspirada em apps de delivery  
 
 ---
 
@@ -50,14 +41,13 @@ Feito com **HTML, CSS e JavaScript**.
 
 ---
 
-## 💻 Como Executar
+## ▶️ Como Executar
 
 ```bash
-# 1. Clone o repositório
+# Clone o repositório
 git clone https://github.com/pedrinngkl/Gastronelle-Delivery.git
 
-# 2. Entre na pasta
+# Entre na pasta
 cd Gastronelle-Delivery
 
-# 3. Abra o index.html em um navegador de sua preferência
-# (ou use Live Server no VSCode para melhor experiência)
+# Abra o arquivo index.html no navegador
