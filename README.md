@@ -13,8 +13,7 @@ Delivery rápido e prático de alimentos — projeto frontend estático com pág
 2. [Funcionalidades](#funcionalidades)
 3. [Tecnologias](#tecnologias)
 4. [Como Executar](#como-executar)
-5. [Estrutura de Pastas](#estrutura-de-pastas)
-6. [Demonstração](#demonstração)
+5. [Demonstração](#demonstração)
 
 ---
 
@@ -53,27 +52,10 @@ cd Gastronelle-Delivery
 # Abra o arquivo index.html no navegador
 ```
 ---
-## 📂 Estrutura de Pastas
-Gastronelle-Delivery/
-│
-├── assets/                # Imagens, ícones, logos etc
-│
-├── css/
-│   └── style.css          # Estilos globais
-│
-├── script.js              # Funções JS de interação
-│
-├── index.html             # Página principal
-├── login.html             # Login
-├── mercado.html           # Página do mercado
-├── pedidos.html           # Pedidos
-├── restaurante.html       # Página de restaurantes
-├── quem-somos.html        # Quem somos
-├── contato.html           # Contato
 
----
 ## 🌐 Demostração
 https://pedrinngkl.github.io/Gastronelle-Delivery/
+
 ---
 <p align="center">
   <strong>Feito com ❤️ por Pedro</strong>
