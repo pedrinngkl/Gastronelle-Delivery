@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="./assets/img/favicon.png" type="png">
+	<title>Gastronelle Delivery</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./assets/fonts/SulSans/font-sulsans.css" />
+</head>
+
+<body>
+	<header class="header-menu">
+		<nav class="container">
+			<ul>
+				<li>
+					<img src="./assets/img/logo.png" alt="Logo Gastronelle" width="110px" height="110px" />
+				</li>
+				<li>
+					<a href="restaurante.html"> Restaurante </a>
+				</li>
+				<li>
+					<a href="mercado.html">
+						Mercado
+					</a>
+				</li>
+				<li>
+					<a href="pedidos.html"> Pedidos </a>
+				</li>
+				<div class="search-box">
+					<input type="text" placeholder="Buscar">
+					<button type="submit">
+						<svg class="search-svg" version="1.1" xmlns="http://www.w3.org/2000/svg"
+							xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="17" viewBox="0 0 17 17">
+							<g>
+							</g>
+							<path
+								d="M16.604 15.868l-5.173-5.173c0.975-1.137 1.569-2.611 1.569-4.223 0-3.584-2.916-6.5-6.5-6.5-1.736 0-3.369 0.676-4.598 1.903-1.227 1.228-1.903 2.861-1.902 4.597 0 3.584 2.916 6.5 6.5 6.5 1.612 0 3.087-0.594 4.224-1.569l5.173 5.173 0.707-0.708zM6.5 11.972c-3.032 0-5.5-2.467-5.5-5.5-0.001-1.47 0.571-2.851 1.61-3.889 1.038-1.039 2.42-1.611 3.89-1.611 3.032 0 5.5 2.467 5.5 5.5 0 3.032-2.468 5.5-5.5 5.5z" />
+						</svg>
+					</button>
+				</div>
+
+				<!-- Carrinho -->
+				<a href="#" class="cart-icon"><svg class="cart-svg" version="1.1" xmlns="http://www.w3.org/2000/svg"
+						xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="17" viewBox="0 0 17 17">
+						<g>
+						</g>
+						<path
+							d="M2.75 12.5c-0.965 0-1.75 0.785-1.75 1.75s0.785 1.75 1.75 1.75 1.75-0.785 1.75-1.75-0.785-1.75-1.75-1.75zM2.75 15c-0.414 0-0.75-0.337-0.75-0.75s0.336-0.75 0.75-0.75 0.75 0.337 0.75 0.75-0.336 0.75-0.75 0.75zM11.25 12.5c-0.965 0-1.75 0.785-1.75 1.75s0.785 1.75 1.75 1.75 1.75-0.785 1.75-1.75-0.785-1.75-1.75-1.75zM11.25 15c-0.414 0-0.75-0.337-0.75-0.75s0.336-0.75 0.75-0.75 0.75 0.337 0.75 0.75-0.336 0.75-0.75 0.75zM13.371 2l-0.302 2h-13.143l1.118 8.036h11.913l1.038-7.463 0.236-1.573h2.769v-1h-3.629zM12.926 5l-0.139 1h-11.574l-0.139-1h11.852zM1.914 11.036l-0.561-4.036h11.295l-0.561 4.036h-10.173z" />
+					</svg></a>
+
+
+			</ul>
+			<ul>
+				<li>
+					<a href="login.html"> criar conta </a>
+				</li>
+				<li>
+					<a href="login.html"> Entrar </a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="search">
+			<div class="title-search">
+				<h1>Tudo para facilitar o seu dia a dia</h1>
+				<p>O que você precisa está aqui. Peça e receba onde estiver.</p>
+			</div>
+			<div>
+				<form class="search-input">
+					<svg class="map" version="1.1" xmlns="http://www.w3.org/2000/svg"
+						xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 17 17">
+						<g>
+						</g>
+						<path
+							d="M8.5 0.5c-3.032 0-5.5 2.467-5.5 5.5 0 4.373 4.913 10.086 5.122 10.328l0.378 0.435 0.378-0.436c0.209-0.241 5.122-5.954 5.122-10.327 0-3.033-2.468-5.5-5.5-5.5zM8.5 15.215c-1.146-1.424-4.5-5.879-4.5-9.215 0-2.481 2.019-4.5 4.5-4.5s4.5 2.019 4.5 4.5c0 3.333-3.354 7.791-4.5 9.215zM8.5 3.139c-1.654 0-3 1.346-3 3s1.346 3 3 3 3-1.346 3-3-1.346-3-3-3zM8.5 8.139c-1.103 0-2-0.897-2-2s0.897-2 2-2 2 0.897 2 2-0.897 2-2 2z" />
+					</svg>
+					<input type="text" placeholder="Endereço de entrega e número" />
+				</form>
+				<button class="button-search">Buscar</button>
+			</div>
+		</section>
+		<section class="options">
+			<div class="container-options">
+				<div class="cards-options">
+					<a href="restaurante.html" class="card-option">
+						<h2>Restaurante</h2>
+						<button>Ver opções &gt;</button>
+						<img src="./assets/img/hambuger.png" />
+					</a>
+					<a href="mercado.html" class="card-option">
+						<h2>Mercado</h2>
+						<button>Buscar lojas &gt;</button>
+						<img class="img-mercado" src="./assets/img/mercado-index.png" />
+					</a>
+				</div>
+				<div class="mini-cards-options">
+					<a href="mercado.html" class="mini-card">
+						<figure>
+							<img class="img-bebidas" src="./assets/img/bebidas.png" alt="" />
+						</figure>
+						<span>Bebidas</span>
+
+
+					</a>
+					<a href="restaurante.html" class="mini-card">
+						<figure>
+							<img src="assets/img/pizza.png" alt="" />
+						</figure>
+						<span>Pizza</span>
+					</a>
+					</a>
+				</div>
+			</div>
+		</section>
+		<!-- Restaurantes -->
+		<section class="container-rest">
+			<h2 class="text-rest">Os melhores restaurantes</h2>
+			<div class="card-grid">
+				<div class="card">
+					<img src="./assets/img/restaurante.jpeg" alt="Restaurante">
+					<h3>Restaurante</h3>
+					<p>Categoria</p>
+				</div>
+				<div class="card">
+					<img src="./assets/img/restaurante.jpeg" alt="Restaurante">
+					<h3>Restaurante</h3>
+					<p>Categoria</p>
+				</div>
+				<div class="card">
+					<img src="./assets/img/restaurante.jpeg" alt="Restaurante">
+					<h3>Restaurante</h3>
+					<p>Categoria</p>
+				</div>
+				<div class="card">
+					<img src="./assets/img/restaurante.jpeg" alt="Restaurante">
+					<h3>Restaurante</h3>
+					<p>Categoria</p>
+				</div>
+				<div class="card">
+					<img src="./assets/img/restaurante.jpeg" alt="Restaurante">
+					<h3>Restaurante</h3>
+					<p>Categoria</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Mercados -->
+		<section class="container-rest">
+			<h2 class="text-rest">Os melhores mercados</h2>
+			<div class="card-grid">
+				<div class="card">
+					<img src="./assets/img/mercado.png" alt="Mercado">
+					<h3>Mercado</h3>
+					<p>Categoria</p>
+				</div>
+				<div class="card">
+					<img src="./assets/img/mercado.png" alt="Mercado">
+					<h3>Mercado</h3>
+					<p>Categoria</p>
+				</div>
+				<div class="card">
+					<img src="./assets/img/mercado.png" alt="Mercado">
+					<h3>Mercado</h3>
+					<p>Categoria</p>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="footer-container">
+			<!-- Coluna 1 -->
+			<div class="footer-col">
+				<p>
+					<a href="index.html"><strong>Gastronelle Delivery</strong></a>
+				</p>
+				<p><a href="quem-somos.html">Quem Somos</a></p>
+				<p><a href="contato.html">Contato</a></p>
+			</div>
+
+			<!-- Coluna 2 -->
+			<div class="footer-col">
+				<p><strong>Social</strong></p>
+				<div class="social-icons">
+					<a href=""><img src="./assets/icons/facebook.svg" alt="Facebook"></a>
+					<a href=""><img src="./assets/icons/instagram.svg" alt="Instagram"></a>
+					<a href=""><img src="./assets/icons/twitter.svg" alt="Twitter"></a>
+				</div>
+			</div>
+		</div>
+
+		<!-- Informações -->
+		<div class="footer-info">
+			<img src="./assets/img/logo.png" alt="Logo Gastronelle" />
+			<p>
+				© Copyright 2025 - Gastronelle Delivery - Todos os direitos reservados <br>
+				Gastronelle Delivery Agência de Restaurantes Online S.A.<br>
+				CNPJ 78.105.524/0001-34 - Avenida dos Autonomistas, nº 1496, Vila Yara, Osasco/SP - CEP 06.020-902
+			</p>
+		</div>
+	</footer>
+</body>
+
+</html>
