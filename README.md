@@ -2,7 +2,7 @@
   <img src="./assets/img/banner.png" alt="Gastronelle Delivery" width="800"/>
 </p>
 
-# 🍽️ Gastronelle-Delivery
+# 🍽️ Gastronelle Delivery
 
 Delivery rápido e prático de alimentos — projeto frontend estático com páginas como **início, pedidos, mercado, restaurantes, login e contato**.  
 
@@ -57,9 +57,6 @@ cd Gastronelle-Delivery
 https://pedrinngkl.github.io/Gastronelle-Delivery/
 
 ---
-<p align="center">
-  <strong>Feito com ❤️ por Pedro</strong>
-</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Feito%20com-%E2%9D%A4-red" alt="Feito com ❤️ por Pedro">
