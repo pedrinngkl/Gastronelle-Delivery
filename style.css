@@ -951,28 +951,165 @@ form button:hover {
 	}
 }
 
-
 /* ====================== MOBILE  (até 549px) ====================== */
-/* Ajustes gerais para telas pequenas */
 @media screen and (max-width: 549px) {
-  .header-menu > nav > ul:first-child li {
-    display: block; /* mostra todos */
+  /* CONTAINER GERAL */
+  .container {
+    width: 100%;
+    padding: 0 15px;
   }
-  .header-menu nav ul {
+
+  /* CABEÇALHO */
+  .header-menu {
+    padding: 1px 15px;
+  }
+  .header-menu nav {
+    /* Altera o layout do menu para acomodar a busca */
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .header-menu > nav > ul:first-child li:not(li:first-child) {
+    display: none; /* Esconde a maioria dos links, mantém apenas o primeiro */
+  }
+  
+  /* Esconde o menu de usuário para liberar espaço */
+  .header-menu > nav > ul:last-child {
+      display: none;
+  }
+
+  /* SEÇÃO DE OPÇÕES (CARDS) */
+  .container-options {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .cards-options {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card-option {
+    width: 95%;
+    margin-top: 15px;
+  }
+  .card-option img {
+    width: 150px;
+  }
+
+  /* MINI CARDS */
+  .mini-cards-options {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .mini-card {
+    margin-top: 15px;
+  }
+
+  /* BUSCA */
+  .search > div:nth-child(2) {
+    flex-direction: column;
+    width: 100%;
+    padding: 0 15px;
+  }
+  .search-input {
+    width: 100%;
+  }
+  .button-search {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .title-search {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  /* FOOTER */
+  .footer-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer-info {
     flex-direction: column;
     gap: 10px;
   }
 }
 
 /* =================== TABLET (551px a 1100px) ==================== */
-
 @media screen and (min-width: 550px) and (max-width: 1100px) {
+  /* CONTAINER GERAL */
+  .container {
+    width: 90%;
+  }
+
+  /* CABEÇALHO */
+  .header-menu {
+    padding: 1px 40px;
+  }
+  .header-menu nav, ul {
+    gap: 30px;
+  }
+  .header-menu > nav > ul:first-child li:not(li:first-child) {
+    display: block; /* Garante que os itens de menu sejam visíveis */
+  }
   
+  /* Reduz o padding para que o cabeçalho caiba na tela */
+  .header-menu > nav > ul:last-child li:last-child a {
+      padding: 10px 15px;
+  }
+
+  /* SEÇÃO DE OPÇÕES (CARDS) */
+  .container-options {
+    width: 95%;
+  }
+  .cards-options {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .card-option {
+    width: 45%;
+  }
+  .card-option img {
+    width: 200px;
+  }
+
+  /* MINI CARDS */
+  .mini-cards-options {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  /* BUSCA */
+  .search > div:nth-child(2) {
+    width: 90%;
+  }
 }
 
 /* ===================== DESKTOP (acima de 1100px) ===================== */
 @media screen and (min-width: 1101px) {
+  /* CONTAINER GERAL */
+  .container {
+    width: 1850px; /* Mantém a largura original */
+  }
 
+  /* CABEÇALHO */
+  .header-menu {
+    padding: 1px 90px;
+  }
 
+  /* SEÇÃO DE OPÇÕES (CARDS) */
+  .container-options {
+    width: 842px;
+  }
   
+  /* GRID DE RESTAURANTES */
+  .card-grid-2 {
+    margin-left: 400px;
+  }
+  
+  /* GRID DE PRODUTOS */
+  .produtos-container {
+    margin-left: 450px;
+  }
 }
