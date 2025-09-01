@@ -934,6 +934,91 @@ form button:hover {
 	background-color: #cc1825;
 }
 
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    margin-left: 40%;
+    margin-top: 3%;
+}
+
+/* Caixa de login */
+.login-box {
+    background: #fff;
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.img-login-gastronelle{
+    margin-left: 8%;
+}
+
+/* Inputs */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #444;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+}
+
+.input-group input:focus {
+    border-color: #D62828;
+}
+
+/* Botão */
+.btn-login {
+    display: inline-block;
+    background-color: #D62828;
+    color: #fff;
+    padding: 10px 60px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn-login:hover {
+    background-color: #D62828;
+}
+
+/* Texto abaixo */
+.extra-text {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+}
+
+.extra-text a {
+    color: #D62828;
+    text-decoration: none;
+}
+
+.extra-text a:hover {
+    text-decoration: underline;
+}
+
+
 @media screen and (max-width: 900px) {
 	.title-search {
 		width: 90%;
